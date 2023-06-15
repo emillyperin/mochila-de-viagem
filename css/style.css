@@ -153,8 +153,7 @@ header .logo img{
     }
 
     .lista {
-        max-width: 50%;
-        min-width: 20%;
+        min-width: 25%;
     }
 
     .conteudo {
@@ -168,10 +167,6 @@ header .logo img{
         min-width: 600px;
         display: flex;
         gap: 2em;
-    }
-
-    .principal.max-width {
-        max-width: 50rem;
     }
 
     .mochila {
