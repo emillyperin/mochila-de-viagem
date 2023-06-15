@@ -152,6 +152,11 @@ header .logo img{
         width: 15rem;
     }
 
+    .lista {
+        max-width: 50%;
+        min-width: 20%;
+    }
+
     .conteudo {
         padding: 2em 3em 0;
     }
@@ -197,7 +202,5 @@ header .logo img{
         margin-bottom: 0;
     }
 
-    .lista {
-        max-width: 50%;
-    }
+    
 }
