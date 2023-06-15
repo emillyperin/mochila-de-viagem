@@ -1,8 +1,8 @@
 html {
-    background: radial-gradient(farthest-corner at right top, #21A09D, #06182D);
     height: auto;
     min-height: 100vh;
     font-family: 'Roboto', cursive;
+    background: #d5cebe;
 }
 
 header .logo {
@@ -22,7 +22,7 @@ header .logo img{
 .principal {
     padding: 3em 1em 1em;
     box-sizing: border-box;
-    background: #C5965F;
+    background: #a98d6b;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -110,6 +110,7 @@ header .logo img{
     background-color: #40112D;
     color: #FFFFFF;
     cursor: pointer;
+    transition: .25s;
 }
 
 .lista {
@@ -129,6 +130,7 @@ header .logo img{
     align-items: center;
     gap: 1em;
     font-size: 15px;
+    position: relative;
 }
 
 .item strong {
@@ -138,8 +140,31 @@ header .logo img{
     justify-content: center;
     width: 30px;
     height: 30px;
-    Background: #C5965F;
+    Background: #a98d6b;
     font-weight: 400;
+    color: white;
+}
+
+.item button {
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    border: none;
+    background: #a98d6b;
+    border-radius: 50%;
+    padding: 4px 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    transition: .25s;
+}
+
+.item button:hover {
+    scale: 1.2;
+}
+
+input.cadastrar:hover {
+    background-color: #40112dda;
 }
 
 @media screen and (min-width: 768px) {
@@ -170,10 +195,6 @@ header .logo img{
         gap: 2em;
     }
 
-    .principal.max-width {
-        max-width: 50rem;
-    }
-
     .mochila {
         scale: 1;
         position: unset;
@@ -201,5 +222,8 @@ header .logo img{
     .principal {
         margin-bottom: 0;
     }
-  
+    .principal.max-width {
+        max-width: 50rem;
+    } 
+
 }
