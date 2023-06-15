@@ -177,6 +177,11 @@ input.cadastrar:hover {
         width: 15rem;
     }
 
+    .lista {
+        max-width: 50%;
+        min-width: 20%;
+    }
+
     .conteudo {
         padding: 2em 3em 0;
     }
@@ -217,12 +222,8 @@ input.cadastrar:hover {
     .principal {
         margin-bottom: 0;
     }
-
-    .lista {
-        max-width: 50%;
-    }
-
     .principal.max-width {
         max-width: 50rem;
     } 
+
 }
