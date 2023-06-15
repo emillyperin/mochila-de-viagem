@@ -178,8 +178,7 @@ input.cadastrar:hover {
     }
 
     .lista {
-        max-width: 50%;
-        min-width: 20%;
+        min-width: 25%;
     }
 
     .conteudo {
